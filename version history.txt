@@ -1,0 +1,2 @@
+date       update name                                                                      version number   html lines   css lines   js lines   total lines   added lines   added percent
+20220314 - "very easy bad rip-off"                                                          v0.0.0           17           25          111        143           N/A           N/A%

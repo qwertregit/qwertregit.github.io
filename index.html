@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>some piano tiles rip-off</title>
+  </head>
+  <body onkeydown="if (document.getElementById('keyboard').checked){keydown(event)}">
+    <hr id="cursorline" style="height: 5px; background-color: red; border-width: 0px; top: 100px; pointer-events: none; visibility: hidden;">
+    &nbsp;&nbsp;Playing with keyboard: <input type="checkbox" id="keyboard" checked="true"><br>
+    &nbsp;&nbsp;Frame Rate: <input id="fps" type="range" min="10" max="60" value="53"><span id="fpsnum"></span><br>
+    &nbsp;&nbsp;Play with FGHJ<br>
+    <table id="playarea" style="border: 10px black solid; margin: auto;" onmousedown="start()"></table>
+    <span id="result"></span>
+    <script src="game.js"></script>
+  </body>
+</html>

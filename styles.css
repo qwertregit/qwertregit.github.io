@@ -1,0 +1,24 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+}
+#playarea {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 10px solid black;
+  border-collapse: collapse;
+}
+#playarea td {
+  height: 225px;
+  width: 160px;
+  border: 10px solid black;
+  padding: 0px;
+}
+#cursorline {
+  position: relative;
+  left: 0px;
+  margin: 0px;
+  z-index: 1;
+}
